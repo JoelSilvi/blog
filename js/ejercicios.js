@@ -12,17 +12,14 @@
 
 // const newObject = {...obj1,...obj2}
 
-// console.log(newObject)
-
-
 const coche = {
-    marca: "tesla",
-    // model: "S" 
-}
+  marca: "tesla",
+  // model: "S"
+};
 
-let model = coche.model ? coche.model : 'X';
+let model = coche.model ? coche.model : "X";
 
-const newAyuda = {...coche};
+const newAyuda = { ...coche };
 
 // console.log(newAyuda)
 
@@ -33,24 +30,11 @@ const newAyuda = {...coche};
 //     coche.model = "Sin modelo"
 // }
 
-
-function suma(a,b){
-    a = a == null ? 0 : a
-    // a = a ?? 0
-    b = b == null ? 0 : b
+function suma(a, b) {
+  a = a == null ? 0 : a;
+  // a = a ?? 0
+  b = b == null ? 0 : b;
 }
 
 suma();
-suma(4,4);
-
-
-
-
-
-
-
-
-
-
-
-
+suma(4, 4);
